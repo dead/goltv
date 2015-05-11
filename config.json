@@ -1,0 +1,10 @@
+{
+    "unrar": "/storage/downloads/unrar",
+    "downloadto": "/storage/downloads/subtitles/",
+    "watchdir": ["/storage/downloads/movies/", "/storage/tvshows/"],
+    "username": "",
+    "password": "",
+    "valid_files_ext": [".avi", ".mp4", ".mkv", ".r00"],
+    "ignore_files_with": ["sample"],
+    "clean_from_filename": ["webrip", "unrated", "cut", "bluray", "blu-ray", "brip", "brrip", "720p", "1080p", "720", "1080", "dvdrip", "dvd", "hdtv", "x264", "dts 5.1", "dts", "ac3", "web dl", "web-dl", "webdl", "aac 2.0", "aac", "dd5.1", "-es", "h264", "h.264", "proper", "repack", "extended", "(", ")", "[", "]", "'", "hd tv"]
+}
