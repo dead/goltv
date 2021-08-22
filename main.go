@@ -38,6 +38,8 @@ func main() {
                 subFileExt := filepath.Ext(subFile)
                 
                 if subFileExt == ".rar" || subFileExt == ".zip"  {
+                    log.Println("Compressed Files")
+                    
                     toSubFile := strings.TrimSuffix(file, ext)
                     extractedFiles := ExtractFile(subFile, filepath.Join(config.Downloadto, subtitle.id) + "/")
                     

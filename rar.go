@@ -8,6 +8,8 @@ import (
 )
 
 func RARExtractFile(file string, toDir string) []string {
+    log.Println("Running RAR extract", file)
+
     ret := []string{}
     cmd := exec.Command(config.Unrar, "x", file, toDir)
     err := cmd.Run()
