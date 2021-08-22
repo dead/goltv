@@ -1,7 +1,7 @@
 {
-    "unrar": "/storage/downloads/unrar",
-    "downloadto": "/storage/downloads/subtitles/",
-    "watchdir": ["/storage/downloads/movies/", "/storage/tvshows/"],
+    "unrar": "unrar",
+    "downloadto": "/some_location",
+    "watchdir": ["/some_location"],
     "username": "",
     "password": "",
     "valid_files_ext": [".avi", ".mp4", ".mkv", ".r00"],
